@@ -10,7 +10,7 @@
     body {
      font-size: 13px;
     }
-
+#banner-image img{width: 100%;}
   .ratings img{
          height: 80%;
 width: 80%;
