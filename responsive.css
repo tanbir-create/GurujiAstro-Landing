@@ -15,6 +15,8 @@
          height: 80%;
 width: 80%;
      }
+.ratings{ padding: 3px !important;
+     }
   }
 
 @media only screen and (max-width: 1000px) {
@@ -115,7 +117,8 @@ width: 80%;
         padding: 1rem;
         font: 15px;
     }
-
+    .ratings{ padding: 3px !important;
+     }
     #news{
         flex-direction: row;
         flex-wrap: nowrap;
@@ -136,7 +139,8 @@ width: 80%;
     #header{
         padding: 0 0 0 1.1em !important;
     }
-
+.ratings{ padding: 3px !important;
+     }
     nav select {
         padding: 5px 15px !important;
     }
