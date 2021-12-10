@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;overflow-x: hidden;
+}
+body {
+    overflow: hidden;}
+body {
+    box-sizing: border-box;
+    font-family: 'DM sans', sans-serif;
+    position: relative;
+    background-color: #ffffff;
+    color:#222222;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -.02rem;
+    overflow-y: scroll;width:100%;
+    overflow-x: hidden;
+    
+}
+/* ::-webkit-scrollbar {
+    display: none;
+  } */
+  
+/* button:hover {
+    transform: scale(1.03);
+} */
+h1{
+    font-size: 2.5em;
+    text-align: center;
+}
+#header {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 4em 1em 4em;
+    height: 80px;
+}
+
+#page-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0px;
+
+}
+
+#page-title p { 
+    margin: 0px 40px;
+    width: max-content;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: -0.01rem;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    /* height: 45px; */
+  
+}
+nav button{
+    margin: 0px 16px;
+    background-color: #ffffff;
+    font-weight: 500;
+    transition: background-color .2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #wallet svg {
+    margin: 0 8px 1px 0;
+}
+nav #wallet:hover {
+    background-color: #F6F4F8;
+
+}
+
+.select-wrapper {
+    position: relative;
+  }
+  
+  .select-wrapper::after {
+    content: url('./images/vector-stroke.svg');
+    font-size: 1.2rem;
+    top: 7px;
+    right: 16px;
+    color:  #121212;
+    position: absolute;
+  }
+
+nav #select-language{
+    -webkit-appearance: none;
+    appearance: none;
+    font-weight: 400;
+    letter-spacing: -0.01rem;
+    
+}
+nav #select-language, #wallet{
+    height: 100%;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    /* line-height: 1.5rem; */
+    
+    box-shadow: 0 1px 3px -2px #9098A9;
+
+    
+}
+
+nav #select-language, #wallet, img:hover{
+    cursor: pointer;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+}
+nav a img{ 
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+                    /* BANNER */
+
+
+#banner{
+   /* height: 100%; */
+   width: 100%;
+   position: relative;
+}
+
+#banner-image img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#banner-image img:hover{
+   cursor: default;
+}
+
+#banner-content {
+    position: absolute;
+    left: 4.26%;
+    right: 56.03%;
+    top: 10.1%;
+    bottom: 10.1%;
+    height: 78.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+
+
+
+#banner-content h1 {
+    font-size: 3.3em;
+    margin: 0;
+    /* font-size: 40px; */
+    text-align: initial;
+    line-height: 120%;
+    /* or 120% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+}
+
+#line-between{
+    width: 100%;
+    border: 1px solid rgba(34, 34, 34, 0.4);
+    margin-bottom: 4px;
+
+}
+
+#banner-content>p{
+    font-weight: 500;
+    /* line-height: 1.25em; */
+    font-size: 1.8em;
+    letter-spacing: -0.02em;
+    margin: 0;
+    margin-bottom: 4px;
+
+}
+
+#critic-reviews{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.ratings{
+    font-size: 1.2em;
+    height: 3em;
+    border: 2px solid rgba(153, 140, 232, 0.4);
+    border-radius: 4px;
+    padding: .4em 1.5em;
+    box-shadow: 0 1px 2.5px -2px #9098A9;
+    margin-right: 3px;
+
+}
+
+.ratings img {
+    height: 90%;
+    width: 100%;
+  
+}
+
+.talk-now {
+    padding: 12px 15px;
+    background-image: linear-gradient(180deg, #6B17FF 0%, #7F11F6 100%);
+    height: 3.1em;
+    width: 55%;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1.5em;
+    transition: all .2s ease-in-out;
+    border-radius: 8px;
+}
+
+.talk-now:hover{
+    opacity: .93;
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+                /* SECTION: METHODS */
+
+
+
+#method-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    
+    /* height: 90%; */
+}
+
+#method-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#method-buttons button{
+    margin: 1em;
+    font-size: 1.1em;
+    letter-spacing: -.02em;
+    padding: 15px 26px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+    transition: all .2s;
+}
+
+.activeBtn {
+    color: #fff;
+    background-color: #222222;
+}
+
+#methods-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* overflow-x: scroll; */
+    width: 90%;
+}
+.scenarios{
+    display: none;
+    overflow-x: scroll;
+    
+}
+.scenarios::-webkit-scrollbar {
+    display: none;
+  }
+.sc{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    width: 90%;
+}
+.method-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 220px 8px 24px;
+    max-width: 220px;
+    /* height: 200px; */
+    border-radius: 16px;
+    color: #ffffff;
+    margin: 0 10px;
+    font-weight: 700;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.scenarios .method-card{
+    max-width: 240px;
+    min-width: 200px;
+}
+
+.method-card p{
+    font-weight: 100;
+    width: 100%;
+    opacity: 80%;
+    padding-top: .8em;
+}
+
+.method-card:hover{
+    cursor: pointer;
+    transform: scale(1.001);
+     
+}
+
+                /* SECTION - WHY ASTROLOGY? */
+
+#why-astrology{
+    position: relative;
+    background-color: #F6F4F8;
+    margin: 0;
+    padding: 4em;
+    /* height: 69vh; */
+  
+}
+#why-astro-wrapper {
+    /* position: absolute;
+    left: 4.26%; */
+    /* right: 56.03%; */
+    /* top: 10.1%; */
+    /* bottom: 10.1%; */
+   /* margin-left: 4.26%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    word-break: break-all;
+    /* margin-top: 4em; */
+   
+}
+
+#why-astro-wrapper div:nth-child(2) {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-top: .5em;
+
+
+}
+
+#why-astro-wrapper h1 {
+    font-weight: 700;
+    font-size: 3em;
+    margin: 0;
+}
+
+#why-astro-wrapper h4 {
+    font-weight: 500;
+    font-size: 1.7em;
+    margin: 20px 0;
+}
+
+#why-astro-btn {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #222222;
+    border: none;
+    transition: all .2s ease-in-out;
+
+}
+
+#why-astro-btn img{
+    height: 60%;
+    width: 60%;
+}
+
+#why-astro-wrapper p{
+    font-weight: 400;
+    color:  #777E91;
+    line-height: 1.5em;
+    letter-spacing: -0.02em;
+    font-size: 1.3em;
+    padding: .7em;
+
+}
+
+
+
+                /* REASONS TO CHOOSE */
+#reasons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+
+#reasons-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 4em 1.6em 2.5em; */
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    width: 90%;
+    height: 90%;
+    margin: 4em;
+    /* padding: 3em; */
+
+}
+
+#reasons {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;    
+}
+
+#reasons div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 8px 16px;
+    width: 45%;
+    
+}
+
+#reasons div .reason-details {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    width: 100%;
+    font-size: 1.25em;
+    
+    
+}
+
+.reason-details h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+}
+
+
+            /* SECTION: HOW IT WORKS */
+
+
+#process-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+    background-color: #E5E5E5;
+}
+
+#process-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: flex-start; */
+    padding: 0px;
+}
+
+.process-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px 16px;
+    font-size: 1.2em;
+}
+
+.process-card p {
+    line-height: 150%;
+    /* or 150% */
+    padding: 1em;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #707070;
+    
+}
+
+
+                    /*Section: SECURITY CONTAINER  */
+
+
+#security-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5em;
+    background-color: #F6F4F8;
+}
+
+#security{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: flex-end; */
+    padding: 0px;
+    font-weight: 600;
+    width: 70%;
+    margin-top: 2em;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+#security p {
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+
+                /* SECTION: ASTROTALK IN NEWS */
+#news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3em;
+    
+    
+}
+#heading {
+    margin-bottom: 2.5em;
+}
+
+#heading h1, #heading h3 {
+    padding: 1rem;
+}
+
+#hading h3 {
+    color: #333333;
+}
+#news {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.news-card{
+    margin: 0px 16px;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    /* padding: 5px; */
+    width: 13.5%;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 5px;
+   
+}
+#news-date{
+    margin: 0;
+    padding-top: .8em;
+    
+}
+
+                /*End section  */
+
+
+#last{
+    background-image: url('./images/endsection.png');
+    background-position: center;
+    background-size: cover;
+    /* height: 0; */
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+#last::after{
+    padding-top: 35%;
+    display: block;
+    content: '';
+}
+#last div{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+
+}
+#last div h1{
+    font-size: 4.5em;
+}
+#last button {
+    width: 30%; 
+}
+
+/* .slick-slider{
+    margin:10px;
+  }
+  .slick-slider img{
+    width:100%;
+  } */
+  #methods-container .slick-dots li {
+    /* display: none; */
+    color: red;
+    bottom: 200px;
+    z-index: 99999;
+  }
+
+  
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: -18%;
+    left: 50%;
+    right: 50%;
+  }
+  .slick-dots li {
+    margin: 0 0.25rem;
+  }
+  .slick-dots button {
+    display: block;
+    width: .7rem;
+    height: .7rem;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: grey;
+    text-indent: -9999px;
+  }
+  .slick-dots li.slick-active button {
+    background-color: #551A8B;
+    width: 1.5rem;
+    border-radius: 50px;
+  }
+.slick-arrow{
+    
+    background: transparent;
+    border: none;
+    top: 40%;     
+}
+/*  
+  .slick-arrow img{ 
+      height: 55px !important;
+      width: 55px;
+      
+  } */
+
+.next, .nex{
+    position: absolute;
+    
+    right: -15px;
+   
+  }
+
+  .prev, .pre{
+    left: -15px;
+    z-index: 999;
+    position: absolute;
+  }
+
+
+                          /* MEDIA QUERIES */

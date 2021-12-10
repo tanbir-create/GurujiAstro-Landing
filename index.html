@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="./images/favicon.jpg" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+                    
+    <title>GURUJI</title>
+</head>
+<body>
+                        <!-- HEADER -->
+    <header id="header">
+
+        <div id="page-title">
+            <a href="/" >
+            
+                <svg width="102" height="42" viewBox="0 0 74 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.2977 22.9963C3.54707 22.9963 2.2126 22.5396 1.3307 21.6388C0.572453 20.8659 0.134326 19.772 0.0301291 18.3878L0.018203 18.2554C0.00753227 18.0787 0 17.8988 0 17.7119V6.288C0 4.58461 0.446915 3.26257 1.3307 2.36115C2.21323 1.46036 3.5477 1.00363 5.2977 1.00363C7.00815 1.00363 8.31751 1.44516 9.18937 2.31617C10.0625 3.18719 10.5257 4.45285 10.5659 6.07452V8.62296H10.3048C9.53084 8.62296 8.8931 8.37211 8.35266 7.85646C7.81724 7.34526 7.55675 6.75043 7.55675 6.03778C7.53416 5.16107 7.33769 4.56181 6.95794 4.2001C6.58446 3.84473 6.06285 3.66355 5.40692 3.66355C4.75035 3.66355 4.22372 3.84916 3.84083 4.2153C3.45355 4.58398 3.25771 5.20604 3.25771 6.06439V17.9039C3.25771 18.7774 3.44915 19.3779 3.84397 19.7409C4.22498 20.0944 4.75098 20.273 5.40692 20.273C6.06222 20.273 6.58823 20.0938 6.97049 19.739C7.35903 19.3798 7.55675 18.7609 7.55675 17.9001V13.2048H7.31949C6.87885 13.2048 6.51353 13.0655 6.20345 12.781C5.90028 12.5017 5.7534 12.1742 5.7534 11.7808V10.4815H7.59944C8.00178 10.4815 8.39095 10.555 8.75627 10.7001C9.1197 10.8452 9.43982 11.046 9.70847 11.2968C9.97336 11.5458 10.1855 11.8422 10.3374 12.178C10.4893 12.5118 10.5659 12.8634 10.5659 13.2238V17.6803C10.5659 19.3887 10.1227 20.7158 9.24775 21.6267C8.37651 22.5351 7.0477 22.9963 5.2977 22.9963Z" fill="#965EFB"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8414 22.9963C17.0763 22.9963 15.7362 22.5301 14.8562 21.6103C13.9749 20.6879 13.5273 19.3558 13.5273 17.6492V3.65215C13.5273 3.29171 13.6039 2.94584 13.7539 2.62467C13.9052 2.29844 14.1124 2.01148 14.3691 1.77203C14.6252 1.53194 14.9302 1.3419 15.2736 1.20761C15.6182 1.07268 15.9873 1.00363 16.3695 1.00363H16.7857V17.8684C16.7857 18.7299 16.9828 19.3526 17.3732 19.7219C17.758 20.0874 18.2884 20.273 18.95 20.273C19.6122 20.273 20.1432 20.0874 20.528 19.7213C20.9171 19.3526 21.1155 18.7293 21.1155 17.8684V3.62111C21.1155 2.88819 21.3785 2.28323 21.9183 1.77076C22.4638 1.25512 23.1115 1.00363 23.8987 1.00363H24.124V17.6492C24.124 19.3545 23.6771 20.6867 22.7952 21.6103C21.9152 22.5301 20.5851 22.9963 18.8414 22.9963Z" fill="#965EFB"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5729 3.72634C31.2603 3.72634 30.9892 3.841 30.7676 4.06525C30.546 4.2895 30.4343 4.56379 30.4343 4.87989V11.1411H32.6921C33.4146 11.1411 33.9864 10.9498 34.3919 10.5741C34.4892 10.4835 34.5777 10.3714 34.6555 10.2415C34.8959 9.83865 35.0127 9.28184 35.0127 8.53752V6.29948C35.0127 5.43924 34.8601 4.81527 34.5457 4.39085C34.2199 3.94996 33.7008 3.72634 33.0034 3.72634H31.5729ZM37.5121 22.9964C36.8235 22.9964 36.2523 22.762 35.7665 22.2799C35.2801 21.7991 35.0434 21.229 35.0434 20.536V16.9588C35.0434 15.8217 34.847 15.0413 34.4415 14.5732C34.0322 14.1019 33.392 13.8637 32.5371 13.8637H30.4343V22.9932C30.0458 22.9774 29.6823 22.8957 29.3515 22.7493C28.9768 22.5853 28.6404 22.3534 28.351 22.062C28.0616 21.7706 27.8332 21.4311 27.67 21.0535C27.5074 20.6773 27.4258 20.2611 27.4258 19.8145V3.5268C27.4258 2.83252 27.6624 2.25037 28.1508 1.74803C28.6372 1.24759 29.2172 1.00371 29.9246 1.00371H33.097C34.8457 1.00371 36.1224 1.40849 36.892 2.20476C37.6621 3.00293 38.0532 4.26416 38.0532 5.95171V7.71148C38.0532 8.65027 37.9189 9.46554 37.6546 10.1332C37.5448 10.4119 37.4173 10.6603 37.2749 10.8737C36.9296 11.3894 36.4633 11.7859 35.8895 12.052L35.4043 12.2769L35.8952 12.4891C36.7156 12.8444 37.2698 13.3867 37.5893 14.1488C37.9176 14.9305 38.0839 15.9104 38.0839 17.0633V22.9964H37.5121Z" fill="#965EFB"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M46.6734 22.9963C44.9083 22.9963 43.5682 22.5301 42.6888 21.6103C41.8069 20.6873 41.3594 19.3551 41.3594 17.6492V3.65215C41.3594 3.29171 41.436 2.94584 41.586 2.62467C41.7372 2.29844 41.9444 2.01148 42.2011 1.77203C42.4578 1.53258 42.7623 1.3419 43.1056 1.20761C43.4508 1.07268 43.8199 1.00363 44.2016 1.00363H44.6177V17.8684C44.6177 18.7299 44.8148 19.3526 45.2052 19.7219C45.59 20.0874 46.1204 20.273 46.7826 20.273C47.4448 20.273 47.9752 20.0874 48.36 19.7213C48.7498 19.3526 48.9475 18.7293 48.9475 17.8684V3.62111C48.9475 2.88819 49.2105 2.28323 49.7503 1.77076C50.2958 1.25512 50.9442 1.00363 51.7313 1.00363H51.956V17.6492C51.956 19.3545 51.5091 20.6867 50.6272 21.6103C49.7472 22.5301 48.4171 22.9963 46.6734 22.9963Z" fill="#965EFB"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M60.541 22.9963C58.6341 22.9963 57.262 22.3723 56.348 21.087C55.8315 20.3858 55.4906 19.554 55.3324 18.6133L55.3029 18.3441L55.3042 18.308C55.3042 18.2529 55.2979 18.1902 55.2847 18.1205C55.2772 18.0831 55.2734 18.0521 55.2734 18.0255V14.3508C55.5502 14.3704 55.8139 14.4261 56.0593 14.5161C56.3757 14.632 56.6726 14.7992 56.9425 15.0121C57.3109 15.287 57.6009 15.6291 57.8118 16.0339C58.0202 16.4374 58.1263 16.8954 58.1263 17.3977V17.9001C58.1263 18.1338 58.1395 18.2922 58.1652 18.398C58.233 18.6501 58.3341 18.8997 58.4665 19.1448C58.8845 19.8942 59.5819 20.273 60.541 20.273C61.4788 20.273 62.1655 19.8942 62.5816 19.1474C62.9149 18.5874 63.0788 17.6644 63.0788 16.331V4.27992L63.0838 3.7193C63.0957 2.22179 64.3122 1.00363 65.796 1.00363H65.9008V15.7666C65.9008 17.4693 65.759 18.7856 65.4772 19.6795C64.7007 21.9086 63.085 22.9963 60.541 22.9963Z" fill="#965EFB"/>
+                    <path d="M70.5586 3.85454C70.5586 2.16757 71.9262 0.800003 73.6131 0.800003V21.6727C73.6131 22.5162 72.9294 23.2 72.0859 23.2H71.211C70.8507 23.2 70.5586 22.9079 70.5586 22.5476V3.85454Z" fill="#965EFB"/>
+                </svg>
+    
+            </a>
+    
+            
+            <p>Talk with astrologers</p>
+        </div>
+
+        <nav>
+
+          <div class="select-wrapper">
+            <select name="" id="select-language">
+                <option value="EN">English</option>
+                <option value="HI">Hindi</option>
+                <option value="MR">Marathi</option>
+                <option value="MAL">Malyalam</option>
+                <option value="KAN">Kannada</option>
+                <option value="TA">Tamil</option>
+                <option value="TE">Telugu</option>
+            </select>
+          </div>
+
+           <button id="wallet"> 
+               <svg width="22" height="20" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="16" height="15" rx="3.5" stroke="#222222"/>
+                        <mask id="mask0_1474_11866" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="17" height="16">
+                        <rect x="0.5" y="0.5" width="16" height="15" rx="3.5" stroke="white"/>
+                        </mask>
+                        <g mask="url(#mask0_1474_11866)">
+                        </g>
+                        <path d="M16.5 7V6.5H16H11C10.1716 6.5 9.5 7.17157 9.5 8C9.5 8.82843 10.1716 9.5 11 9.5H16H16.5V9V7Z" stroke="#222222"/>
+                </svg>
+                <span>₹200</span>
+            </button>
+
+            <a href="#" id="profile"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Me"></a>
+
+        </nav>
+
+        <!-- <div id="dropdown">
+            <div>
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+                <p>Github</p>
+            </div>
+            <hr>
+            <div>
+                <p>Order History</p>
+                <p>Recharge History</p>
+                <p>Followed Astrologer</p>
+                <p>Account Setting</p>
+            </div>
+            <p>Logout</p>
+        </div> -->
+
+    </header>
+
+                                             <!-- BANNER -->
+
+    <section id="banner">
+        <div id="banner-image">
+            <img id="mobile-banner-id" src="./images/banner.png" alt="GURUJI ASTRO">
+        </div>
+        <div id="banner-content">
+           <h1>Find your destiny and remedies with top expert astrologers</h1>
+           
+           <div id="line-between"></div>
+           
+           <p>Call to consult with professional astrologers</p>
+           
+           <div id="critic-reviews">
+               <div id="trust-pilot" class="ratings">
+                    <img src="./images/Trustpilot.svg" alt="trust-pilot">
+
+                    <!-- <p>4.9 &#9734;&#9734;&#9734;&#9734;&#9734;</p>
+
+                    <div class="stars">
+                        <div class="empty-stars"></div>
+                        <div class="full-stars" style="width:85%"></div>
+                    </div> -->
+               </div>
+               
+               <div id="reseller-ratings" class="ratings">
+                    <img src="./images/ResellerRatings.svg" alt="reseller-ratings">
+                </div>
+                
+                <div id="reviews-io" class="ratings">
+                    <img src="./images/Reviews.svg" alt="">
+                </div>
+           </div>
+           
+           <button class="talk-now" >Talk Now</button>
+        </div>
+    </section>
+
+
+                        <!--CONSULT METHODS  -->
+
+
+    <section id="method-section">
+        <h1>All the problem you can consult and get answer</h1>
+        <div id="method-buttons">
+            <button id="btn-scenario">Scenario</button>
+            <button id="btn-methods">Consult Methods</button>
+        </div>
+
+        <div id="methods-container">
+           <!-- METHODS HERE -->
+           
+           
+        </div>
+
+        <div class="scenarios slick-c">
+            <!-- SCENARIOS HERE -->
+            
+        </div>
+    </section>
+
+                         <!--WHY ASTROLOGY  -->
+
+    <section id="why-astrology">
+
+        <div id="why-astro-wrapper">
+            <div>
+                <h1>Why Astrology? &nbsp; 
+                    <button id="why-astro-btn">
+                        <img src="./images/Arrow.svg" alt="">
+                   </button>
+               </h1>
+       
+               <h4>Astrology reveals the will of the God</h4>
+            </div>
+   
+         <div class="collapse">
+            <p>I want to speak like a native Japanese person. Learning a foreign language has 
+                been eye opening, so I want to further improve my Japanese skills. AmazingTalker 
+                s a flexible platform that lets me schedule my lessons for whenever I need, 
+                select tutors that fit my budget and needs, and even purchase a single lesson
+                 if I'd like. Don’t put off learning a new language！
+            </p>
+    
+            <p> I learn foreign languages to expand my future plans. Language learning
+                 lets me explore other interests and possibilities in my life. 
+                 AmazingTalker is a student-oriented platform, where I can learn 
+                 in my own pace. Tutors offer personalized courses based on my learning 
+                 needs. Thanks to AmazingTalker, language learning has helped enrich my life.
+            </p>
+         </div>
+        </div>
+
+    </section>
+
+                                <!-- REASONS -->
+
+    <section id="reasons-container">
+        <div id="reasons-card">
+            <h1 id="reasons-h1">4 Reasons why you should choose Guruji</h1>
+
+            <div id="reasons">
+                <div>
+                    <img src="./images/reason 1.svg" alt="">
+                    <div class='reason-details'>
+                        <h3>800+ Outstandiung astrologers</h3>
+                        <p>Verified and experience astrologersge</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/reason 2.svg" alt="">
+                    <div class='reason-details'>
+                        <h3>Get your answer anytime anywhere</h3>
+                        <p>You don't need astrologer near you</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/reason 3.svg" alt="">
+                    <div class='reason-details'>
+                        <h3>Diversified services</h3>
+                        <p>Tarot, Vedic, Vastu, Palmism, Face reading and anything you need</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./images/reason 4.svg" alt="">
+                    <div class='reason-details'>
+                        <h3>100% Guarantee</h3>
+                        <p>Verified and experienced astrologersge</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+                    <!-- HOW IT WORKS -->
+
+    <section id="process-container">
+
+        <h1>How it works</h1>
+
+        <div id="process-card-container">
+            <div class="process-card">
+                <img src="./images/processCard1.svg" alt="">
+                <h3>Find your Guruji</h3>
+                <p>Browse astrologers and check their skills, 
+                    specialties and reviews. To find your destinated Guruji.</p>
+            </div>
+            <div class="process-card">
+                <img src="./images/processCard2.svg" alt="">
+                <h3>Recharge for Consultation</h3>
+                <p>After recharge, you can have the new user 
+                    offer: ₹5/min and MAX 6 mins duration.</p>
+            </div>
+            <div class="process-card">
+                <img src="./images/processCard3.svg" alt="">
+                <h3>Solve problem with astrologers</h3>
+                <p>Call and Ask astrologers your problems. By providing your birth 
+                    chart, astrologer can help you get the answer.</p>
+            </div>
+        </div>
+
+    </section>
+
+                <!-- SECURITY ASSURANCE -->
+
+    <section id="security-container">
+        <h1>We protect the rights of users</h1>
+        <div id="security">
+            
+                <div>
+                    <img src="./images/refund.svg" alt="">
+                    <p>Refund if unsatisfied</p>
+                </div>
+                <div>
+                    <img src="./images/24x7 customer.svg" alt="">
+                    <p>24x7 Customer support</p>
+                </div>
+                <div>
+                    <img src="./images/100quality.svg" alt="">
+                    <p>100% quality guarantee</p>
+                </div>
+            
+        </div>
+    </section>
+
+
+                                <!-- AstroTalk in News -->
+
+    <section id="news-container">
+        <div id="heading">
+            <h1>Astrotalk in News</h1>
+            <h3>Our Sucess stories in Media Headlines and lots of Encouragement</h3>
+        </div>
+
+        <div id="news">
+            <!-- NEWS CARDS HERE -->
+        </div>
+    </section>
+
+
+    <!-- END OF NEWS -->
+
+
+
+                        <!-- LAST Section -->
+
+    <section id="last">
+        <div>
+            <h1>What are you waiting for?</h1>
+            <button class="talk-now" >Talk Now</button>
+        </div>
+    </section>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/flickity-docs.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

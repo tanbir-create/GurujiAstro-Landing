@@ -1,0 +1,228 @@
+@media only screen and (max-width: 1400px) {
+    #banner-content h1 {
+     font-size: 3em;
+    }
+    
+
+  }
+
+@media only screen and (max-width: 1200px) {
+    body {
+     font-size: 13px;
+    }
+
+
+  }
+
+@media only screen and (max-width: 1000px) {
+    body {
+     font-size: 12px;
+    }
+    #page-title p{
+        font-size: 1.2rem;
+    }
+    #banner-content h1 {
+        font-size: 2.2em;
+       }
+    #banner-content p{
+        font-size: 1.4em;
+    }
+    .talk-now{
+        height: 2.7em;
+        width: 50%;
+    }
+
+    #why-astro-btn {
+        height: 40px;
+        width: 40px;
+    }
+
+  } 
+
+  @media only screen and (max-width: 800px){
+      body{
+          width: 100%;
+          padding: 0;
+      }
+    #page-title p{
+        display: none;
+    }
+    #banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #banner-image img{
+        
+       width: 100%;
+    }
+    #banner-content {
+        position: relative;
+        left: 0;
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    #banner-content h1 {
+        font-size: 2rem;
+        line-height: 125%;
+        margin-bottom: 15px;
+    }
+    #line-between{
+        margin-bottom: 15px;
+    }
+
+    #banner-content p{
+        font-size: 1.18rem;
+        margin-bottom: 15px;
+    }
+    .talk-now{
+        margin: auto;
+        width: 80%;
+    }
+
+    #critic-reviews{
+
+        margin-bottom: 15px;
+    }
+
+    #method-section{
+        padding-top: 3rem;
+    }
+    #method-section h1{
+        font-size: 1.4rem;
+    }
+    #method-buttons button {
+        padding: 12px 18px;
+    }
+
+
+    #process-card-container{
+        flex-direction: column;
+        
+    }
+
+    #reasons div {
+        width: 100%;
+        /* justify-content: initial; */
+    }
+
+    #security-container{
+        padding: 1rem;
+        font: 15px;
+    }
+
+    #news{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+        overflow-x: scroll;
+    }
+     #header button {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+
+    body{
+        padding: 0;
+    }
+    #header{
+        padding: 0 0 0 1.1em !important;
+    }
+
+    nav select {
+        padding: 5px 15px !important;
+    }
+    .select-wrapper::after {
+        content: url('./images/vector-stroke.svg');
+        font-size: 1.2rem;
+        top: -1px;
+        right: 13px;
+        color:  #121212;
+        position: absolute;
+      }
+
+      /* #profile{
+          height: 30px !important;
+          width: 30px impr !important;
+      } */
+    section{
+        width: 1005;
+    }
+    .method-card{
+       max-width: 150px;
+    }
+
+    #reasons-card{
+        margin: 0;
+    
+
+    }
+    #reasons-h1{
+        font: .8em;
+    }
+    #security{
+        width: 100%;
+    }
+
+    #security div img{
+        height: 50px;
+
+    }
+
+    #process-container {
+        padding: 0;
+    }
+    #process-card{
+        padding:0;
+    }
+    #why-astrology h1{
+        font-size: 2em;
+    }
+    #why-astro-wrapper h4 {
+        font-weight: 500;
+        font-size: 1.15em;
+        margin: 20px 0;
+    }
+
+    
+#why-astro-btn {
+    height: 30px;
+    width: 30px;
+    
+
+}
+
+    #last::after{
+        padding-top: 50%;
+    }
+    #last div h1{
+        margin-top: 20px;
+        font-size: 2em;
+    }
+    #last button {
+        width: 50%; 
+    }
+
+    .slick-dots button {
+        
+        width: .3rem;
+        height: .3rem;
+
+  }
+
+  .slick-arrow {
+      height: 40px;
+      width: 40px;
+  }
+  .slick-arrow img{
+    height: 40px;
+    width: 40px;
+}
+
+  }
+
