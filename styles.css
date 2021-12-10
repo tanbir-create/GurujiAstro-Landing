@@ -361,7 +361,7 @@ button:hover{
     align-items: center;
     width: 100%;
     margin: 0;
-    word-break: break-all;
+    /* word-break: break-all;*/
     /* margin-top: 4em; */
    
 }
