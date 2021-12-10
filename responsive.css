@@ -18,6 +18,8 @@ width: 80%;
 .ratings{ text-align: center;
   }
 
+.methods-card{max-width: 200px;}
+
 @media only screen and (max-width: 1000px) {
     body {
      font-size: 12px;
