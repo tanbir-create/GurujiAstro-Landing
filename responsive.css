@@ -15,8 +15,7 @@
          height: 80%;
 width: 80%;
      }
-.ratings{ padding: 3px !important;
-     }
+.ratings{ text-align: center;
   }
 
 @media only screen and (max-width: 1000px) {
