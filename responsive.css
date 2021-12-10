@@ -11,7 +11,10 @@
      font-size: 13px;
     }
 
-
+  .ratings img{
+         height: 80%;
+width: 80%;
+     }
   }
 
 @media only screen and (max-width: 1000px) {
