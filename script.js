@@ -104,7 +104,7 @@ let createSlick = () => {
         nextArrow: '<button class="next"><img src="./images/right.svg" alt=""></button>',
         responsive: [
             {
-                breakpoint: 1400,
+                breakpoint: 1200,
                 settings: {
                     slidesToShow: 5,
                     slidesToScroll: 5,
