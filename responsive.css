@@ -18,7 +18,7 @@ width: 80%;
 .ratings{ text-align: center;
   }
 
-.methods-card{max-width: 200px;}
+.methods-card{max-width: 180px !important;}
 
 @media only screen and (max-width: 1000px) {
     body {
