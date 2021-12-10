@@ -94,7 +94,7 @@ $('#btn-methods').click(function() {
 
 
 let createSlick = () => {
-    $('#methods-container').slick({
+    $('#methods-container').not('.slick-initialized').slick({
         infinite: true,
         slidesToShow: 6,
         slidesToScroll: 6,
