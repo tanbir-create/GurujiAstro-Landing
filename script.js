@@ -1,4 +1,6 @@
-
+if($(window).innerWidth() <= 800){
+        $('#mobile-banner-id').attr('src','./images/bannerMobile.svg')
+       }
 
 
 $('#why-astro-btn').click(function() {
