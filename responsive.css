@@ -153,6 +153,12 @@
     section{
         width: 1005;
     }
+
+    .ratings img{
+         height: 80%;
+width: 80%;
+     }
+     
     .method-card{
        max-width: 150px;
     }
